@@ -9,7 +9,7 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "demo": "start-storybook -s ./src --ci",
-    "demo:build": "build-storybook -s ./src -o catalog",
+    "demo:build": "build-storybook -s ./src -o docs",
     "postinstall": "link-module-alias"
   },
   "keywords": [
