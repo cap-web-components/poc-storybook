@@ -3,8 +3,8 @@ import { create } from '@storybook/theming/create';
 export default create({
   base: 'light',
 
-  colorPrimary: '#7DD4E8',
-  colorSecondary: '#395D63',
+  colorPrimary: '#697077',
+  colorSecondary: '#00ab61',
 
   // UI
   appBg: 'white',
@@ -21,9 +21,9 @@ export default create({
   textInverseColor: '#424242',
 
   // Toolbar default and active colors
-  barTextColor: '#212121',
-  barSelectedColor: '#395D63',
-  barBg: '#7DD4E8',
+  barTextColor: 'white',
+  barSelectedColor: 'white',
+  barBg: '#697077',
 
   // Form colors
   inputBg: 'white',
@@ -33,5 +33,5 @@ export default create({
 
   brandTitle: 'Cap Catalog',
   brandUrl: 'https://github.com/mmirca/cap-web-components',
-  brandImage: '/assets/cap-cli.svg',
+  brandImage: 'assets/mercadona.svg',
 });
